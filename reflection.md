@@ -8,6 +8,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+Things that were broken at the start:
+1. When I typed in a number, there was text that said, "Press Enter to apply". However, when I pressed Enter, nothing happened. I would think that pressing Enter would be the same as pressing the Submit Guess button.
+2. The hint is incorrect. They are switched around. My first guess is 50 and it told me to go higher. Eventually, I guessed 100 and it still told me to go higher, even though it said "Guess a number between 1 and 100." Turns out, the secret number is 1. On the other hand, guessing a number lower than the secret number gives a "Go LOWER" message instead of the expected, "Go HIGHER" message.
+3. Clicking on New Game just changes the secret number. It doesn't clear the history. Even changing the difficulty does not clear the history. In other words, there is no way to start a new game other than restarting the app or refreshing the page. The attempts of the previous round roll over. Clicking the New Game button does not clear the win or lose message either. Even if there's still attempts leftover, the game no longer accepts inputs even though the secret number has changed.
+4. The difficulty and the range of numbers do not match. Easy says that it has a range of 1 to 20, yet the game said to guess a number between 1 and 100. Normal is said to have a range of 1 to 100 while hard has a range of 1 to 50, which doesn't make sense as it should be the other way around. All of the difficulty levels are the same. There is no real difference between easy, normal, and hard. The number of attempts allowed seem to be arbitrary too.
 ---
 
 ## 2. How did you use AI as a teammate?
