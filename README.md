@@ -37,6 +37,7 @@ The purpose of the game is for people to guess a secret number based off of hint
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+      ![winning_game](image.png)
 
 
 ## 🚀 Stretch Features
